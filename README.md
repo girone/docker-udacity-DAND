@@ -3,9 +3,15 @@
 This is an environment that runs the Jupyter Notebook server and Anaconda package
 installation within a Docker environment.
 
-The main goal is to automate the installation process and enable the use of an
-Anaconda installation without screwing up existing Python installations on the
-same machine.
+The project will create a new Docker image, download and install all the Anaconda
+packages required to run the Udacity examples and quizzes and then start the
+Jupyter Notebook server within a Docker container. The Notebook frontend can
+be accessed as usual, by following the link printed to the terminal.
+
+The main goal of this project is to simplify the installation process and enable
+the use of an Anaconda installation without screwing up existing Python
+installations on the same machine.
+
 
 ## Run the Jupyter Notebook server within Docker
 
