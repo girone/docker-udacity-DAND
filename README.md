@@ -7,7 +7,7 @@ The main goal is to automate the installation process and enable the use of an
 Anaconda installation without screwing up existing Python installations on the
 same machine.
 
-## Run the IPNB server within Docker
+## Run the Jupyter Notebook server within Docker
 
 ### Using make
 
@@ -26,5 +26,5 @@ cd -
 
 Then run the server within Docker:
 ```
-docker run --name udacity-ipnb-run-env -v ${UDACITY_WORKSPACE}:/udacity/ -w /udacity/lessons -p 8888:8888 --rm -ti udacity-conda3
+docker run --name udacity-jupyter-run-env -v ${UDACITY_WORKSPACE}:/udacity/ -w /udacity/lessons -p 8888:8888 --rm -ti udacity-conda3
 ```
